@@ -41,6 +41,12 @@ header nav ul li a {
   font-size: 22px;
 }
 
+.hero {
+  background-image:
+    url("../../images/hero-bg.jpg");
+  height: 600px;
+}
+
 footer {
   background: #fce138;
   width: 100%;
@@ -62,4 +68,8 @@ footer div {
 
 footer a {
   color: #024e76;
+}
+
+section {
+  padding: 60px;
 }
