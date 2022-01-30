@@ -41,7 +41,8 @@ header nav ul li a {
   font-size: 22px;
 }
 
-/* Hero Style Start */
+/* header styles end */
+/* Hero Styles Start */
 
 .hero {
   background-image: url("../../images/hero-bg.jpg");
@@ -94,6 +95,7 @@ header nav ul li a {
 }
 
 /* hero style end */
+/* what you do styles start */
 
 .intro {
   text-align: center;
@@ -101,11 +103,11 @@ header nav ul li a {
 
 .section-title {
   font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   display: inline-block;
+  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
 }
 
 .primary-border {
@@ -152,6 +154,9 @@ header nav ul li a {
 .steps span {
   font-size: 38px;
 }
+
+/* what you do styles end */
+/* meet the trainer styles start */
 
 .trainers {
   text-align: center;
@@ -200,11 +205,16 @@ header nav ul li a {
   text-align: right;
 }
 
+/* meet the trainers styles end */
 /* reach out styles start */
 
+section {
+  padding: 60px;
+}
+
 .contact {
-  background-color: #024e76;
   text-align: center;
+  background: #024e76;
 }
 
 .contact h2 {
@@ -225,6 +235,23 @@ header nav ul li a {
   color: white;
 }
 
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+/* reach out styles end */
 /* footer styles start */
 
 footer {
@@ -248,8 +275,4 @@ footer div {
 
 footer a {
   color: #024e76;
-}
-
-section {
-  padding: 60px;
 }
